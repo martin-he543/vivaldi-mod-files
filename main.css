@@ -2,3 +2,116 @@
     font-family: 'Inter', sans-serif!important;
     font-weight: 500;
 }
+
+#switch button.panelbtn.bookmarks img { background-image: url('icons/bookmark.svg') !important; }
+#switch button.panelbtn.readinglist img { background-image: url('icons/bookmark.svg') !important; }
+#switch button.panelbtn.uifocusstop.downloads img { background-image: url('/icons/bookmark.svg') !important; }
+#switch button.panelbtn.history img { background-image: url(/icons/bookmark.svg) !important; }
+#switch button.panelbtn.notes img { background-image: url(/icons/bookmark.svg) !important; }
+#switch button.panelbtn.tabs img { background-image: url(/icons/bookmark.svg) !important; }
+#switch button.panelbtn.translate img { background-image: url(/icons/bookmark.svg) !important; }
+#switch button.panelbtn.mail img { background-image: url(/icons/bookmark.svg) !important; }
+#switch button.panelbtn.calendar img { background-image: url(/icons/bookmark.svg) !important; }
+#switch button.panelbtn.tasks img { background-image: url(/icons/bookmark.svg) !important; }
+#switch button.panelbtn.feeds img { background-image: url(/icons/bookmark.svg) !important; }
+#switch button.panelbtn.contacts img { background-image: url(/icons/bookmark.svg) !important; }
+#switch button.webviewbtn img { background-image: url('/icons/bookmark.svg') !important; }
+
+#header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: -32px;
+}
+
+#tabs-container .tab:not(.tab-group) {
+    border-radius: var(--radiusHalf);
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.tabs-top .tab.active:not(.marked):not(.tab-mini):not(.tab-in-accordion):after,
+.tabs-top .tab.active:not(.marked):not(.tab-mini):not(.tab-in-accordion):before {
+    bottom: 0;
+    -webkit-mask-image: radial-gradient(circle at 0 0, transparent, transparent 73%);
+}
+
+#panels-container {
+    background-color: transparent;
+}
+
+.vivaldi {
+    top: 5px;
+    display: none;
+}
+
+#header #titlebar .window-buttongroup {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 1px;;
+}
+
+.toolbar-tabbar.sync-and-trash-container {
+    margin-right: 8px;
+}
+
+.speeddial .dial {
+    border-radius: var(--radius);
+    backdrop-filter: var(--backgroundBlur);
+    background-color: transparent;
+}
+
+.NotesManager {
+    backdrop-filter: var(--backgroundBlur);
+}
+
+.NotesManager-Note {
+    background-color: var(--colorBgAlpha);
+    backdrop-filter: var(--backgroundBlur);
+}
+
+.toolbar {
+    background-color: transparent!important;
+    backdrop-filter: var(--backgroundBlur)!important;
+    border: none;
+}
+
+.toolbar-extensions {
+    background-color: transparent!important;
+    backdrop-filter: var(--backgroundBlur)!important;
+    border: none;
+}
+
+//.bookmark-bar {
+//    background-color: transparent!important;
+//    backdrop-filter: var(--backgroundBlur)!important;
+//    border: none;
+//}
+
+button.bookmarkbarItem {
+    background-color: transparent!important;
+    backdrop-filter: var(--backgroundBlur)!important;
+    border: none;
+}
+
+button.ToolbarButton-Button {
+    background-color: transparent!important;
+    backdrop-filter: var(--backgroundBlur)!important;
+    border: none;
+}
+
+#switch {
+    background-color: rgba(240,208,163,0.3)!important;
+    backdrop-filter: var(--backgroundBlur)!important;
+    border: none;
+}
+
+#switch button span svg path {
+    stroke: white;
+    stroke-width: 0.8;
+}
+
+.UrlBar-AddressField, .SearchField {
+    // border: none;
+    // color: black;
+    // background-color: var(--colorAccentBg);
+}
